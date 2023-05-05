@@ -1,0 +1,195 @@
+:root{
+    
+    --mainText:#000000;
+    --secondaryText:#032e00;
+
+    --mainBackground:#89CFF0;
+    --secondaryBackground:#f1f1f1
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h3, h4, h5, h6, strong{
+    color: var(--mainText);
+}
+
+p, li, span, label, input,textarea{
+    color:var(--secondaryText)
+}
+
+
+/*    GREETING     */
+/*~~~ SECTION 1 ~~~*/
+/*    ~~~~~~~~~    */
+.s1{
+    display: flex;
+    width: auto;
+    border-radius: 17px;
+    justify-content: center;
+    background-color: var(--mainBackground);
+    overflow: auto;
+}
+
+.greeting{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 90px;
+    margin-bottom: 90px;
+
+    font-family: "Math Bold";
+    font-weight: bold;
+    width: auto;
+    gap: 11px;
+    /*border: dashed;*/
+}
+
+.first-greeting-wrapper{
+    display: table;
+    padding-bottom: 1.5%;
+    width: auto;
+    /*border: dashed;*/
+}
+
+.first-greeting-wrapper u{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+
+    font-size: 3em;
+    /*border: dashed;*/
+}
+
+.second-greeting-wrapper{
+    display: table;
+    width: auto;
+    /*border: dashed;*/
+}
+
+.second-greeting-wrapper h1{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+
+    font-size: 4em;
+    /*border: dashed;*/
+}
+
+.third-greeting-wrapper{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    padding-top: 37px;
+
+    /*border: dashed;*/
+}
+
+.pic-me{
+    border-radius: 75px;
+}
+
+.social-links-wrapper{
+    display: flex;
+    margin-top: 13px;
+    justify-content: center;
+    gap: 17px;
+
+    /*border: dashed;*/
+}
+
+.social-image{
+    border-radius: 11px;
+}
+
+
+/*    PORTFOLIO    */
+/*~~~ SECTION 2 ~~~*/
+/*    ~~~~~~~~~    */
+.s2{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    border-radius: 17px;
+    justify-content: center;
+    background-color: var(--secondaryBackground);
+    overflow: auto;
+
+    /*border: dashed;*/
+}
+
+.section-heading{
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    justify-content: center;
+
+    font-size: 3em;
+
+    /*border: dashed;*/
+}
+
+.portfolio-text{
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    margin-top: 11px;
+    margin-bottom: 0;
+    
+    justify-content: center;
+
+    /*border: dashed;*/
+}
+
+.portfolio-project-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    margin-top: 37px;
+    justify-content: center;
+    gap: 57px;
+}
+
+.project-design{
+    overflow: auto;
+    /*border: dashed;*/
+}
+
+.project-design p{
+    display: flex;
+    justify-content: center;
+}
+
+.project-image{
+    border-radius: 17px;
+
+    /*border: dashed;*/
+}
+
+
+/*     CONTACT     */
+/*~~~ SECTION 2 ~~~*/
+/*    ~~~~~~~~~    */
+#contact-section{
+    background-color: var(--mainBackground);
+
+    /*border: dashed;*/
+}
+
+#contact-form{
+    
+
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+    justify-content: center;
+
+    border: dashed;
+}
+
