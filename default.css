@@ -101,18 +101,19 @@ p, li, span, label, input,textarea{
     margin-top: 13px;
     justify-content: center;
     gap: 17px;
-    background-color: var();
 
     /*border: dashed;*/
 }
 
 .social-image{
     border-radius: 11px;
+    box-shadow: -5px 5px 5px var(--textShadow);
 }
 
 #programming-languages{
     font-size: 1.5em;
     margin-top: 77px;
+    text-shadow: -5px 5px 5px var(--textShadow);
 }
 
 .skills-wrapper{
@@ -135,6 +136,7 @@ p, li, span, label, input,textarea{
     background-color: var(--tertiaryBackground);
     padding: 3px;
     border-radius: 23px;
+    box-shadow: -5px 5px 5px var(--textShadow);
     /*border: dashed;*/
 }
 
