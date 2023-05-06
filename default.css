@@ -4,7 +4,8 @@
     --secondaryText:#032e00;
 
     --mainBackground:#89CFF0;
-    --secondaryBackground:#f1f1f1
+    --secondaryBackground:#f1f1f1;
+    --tertiaryBackground: #bbe5f8;
 }
 
 html, body{
@@ -22,10 +23,11 @@ p, li, span, label, input,textarea{
 
 
 /*    GREETING     */
-/*~~~ SECTION 1 ~~~*/
+/*~~~    s1    ~~~*/
 /*    ~~~~~~~~~    */
 .s1{
     display: flex;
+    flex-direction: column;
     width: auto;
     border-radius: 17px;
     justify-content: center;
@@ -39,8 +41,6 @@ p, li, span, label, input,textarea{
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 90px;
-    margin-bottom: 90px;
-
     font-family: "Math Bold";
     font-weight: bold;
     width: auto;
@@ -50,17 +50,17 @@ p, li, span, label, input,textarea{
 
 .first-greeting-wrapper{
     display: table;
-    padding-bottom: 1.5%;
     width: auto;
+    padding-bottom: 1.25%;
     /*border: dashed;*/
 }
 
-.first-greeting-wrapper u{
+.first-greeting-wrapper p{
     display: table-cell;
     vertical-align: middle;
     text-align: center;
-
-    font-size: 3em;
+    /*text-decoration: overline underline;*/
+    font-size: 2.5em;
     /*border: dashed;*/
 }
 
@@ -97,6 +97,7 @@ p, li, span, label, input,textarea{
     margin-top: 13px;
     justify-content: center;
     gap: 17px;
+    background-color: var();
 
     /*border: dashed;*/
 }
@@ -105,15 +106,43 @@ p, li, span, label, input,textarea{
     border-radius: 11px;
 }
 
+#programming-languages{
+    font-size: 1.5em;
+    margin-top: 77px;
+}
+
+.skills-wrapper{
+    display: flex;
+    width: fit-content;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 7px;
+    margin-bottom: 53px;
+    
+    justify-content: center;
+    gap: 27px;
+    /*background-color: var(--tertiaryBackground);*/
+    /*border: dashed;*/
+}
+
+.skills-wrapper h3{
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: var(--tertiaryBackground);
+    padding: 3px;
+    border-radius: 23px;
+    /*border: dashed;*/
+}
+
 
 /*    PORTFOLIO    */
-/*~~~ SECTION 2 ~~~*/
+/*~~~    s2     ~~~*/
 /*    ~~~~~~~~~    */
 .s2{
     display: flex;
     flex-direction: column;
     width: auto;
-    height: auto;
+    /*height: auto;*/
     border-radius: 17px;
     justify-content: center;
     background-color: var(--secondaryBackground);
@@ -141,7 +170,7 @@ p, li, span, label, input,textarea{
     flex-wrap: wrap;
     max-width: 600px;
     margin: 0 auto;
-    /*margin-top: 13px;*/
+    margin-top: 0;
     text-indent: 13px;
     text-align: left;
 
@@ -178,8 +207,8 @@ p, li, span, label, input,textarea{
 }
 
 
-/*     CONTACT     */
-/*~~~ SECTION 2 ~~~*/
+/*    CONTACT     */
+/*~~~    s2   ~~~*/
 /*    ~~~~~~~~~    */
 #contact-section{
     background-color: var(--mainBackground);
@@ -195,6 +224,7 @@ p, li, span, label, input,textarea{
     flex-direction: column;
     max-width: 600px;
     margin: 0 auto;
+    margin-top: 7px;
     margin-bottom: 70px;
     justify-content: center;
 
@@ -234,8 +264,8 @@ p, li, span, label, input,textarea{
     border-color: #fff;
 }
 
-/*     ABOUT ME     */
-/*~~~ SECTION 2 ~~~*/
+/*    ABOUT ME     */
+/*~~~    s2    ~~~*/
 /*    ~~~~~~~~~    */
 .about-me-wrapper{
     display: flex;
