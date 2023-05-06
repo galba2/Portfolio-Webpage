@@ -6,6 +6,8 @@
     --mainBackground:#89CFF0;
     --secondaryBackground:#f1f1f1;
     --tertiaryBackground: #bbe5f8;
+
+    --textShadow:#4e7a8f;
 }
 
 html, body{
@@ -43,6 +45,7 @@ p, li, span, label, input,textarea{
     margin-top: 90px;
     font-family: "Math Bold";
     font-weight: bold;
+    text-shadow: -5px 5px 5px var(--textShadow);
     width: auto;
     gap: 11px;
     /*border: dashed;*/
@@ -60,7 +63,7 @@ p, li, span, label, input,textarea{
     vertical-align: middle;
     text-align: center;
     /*text-decoration: overline underline;*/
-    font-size: 2.5em;
+    font-size: 3em;
     /*border: dashed;*/
 }
 
@@ -90,6 +93,7 @@ p, li, span, label, input,textarea{
 
 .pic-me{
     border-radius: 75px;
+    box-shadow: -5px 5px 5px var(--textShadow);
 }
 
 .social-links-wrapper{
