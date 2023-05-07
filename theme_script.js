@@ -1,5 +1,13 @@
 console.log("It's still working!");
 
+let savedStyle = localStorage.getItem('savedStyle');
+
+if(savedStyle == null){
+    setThemeStyle('default');
+}else{
+    setThemeStyle(savedStyle);
+}
+
 let themeButtons = document.getElementsByClassName('theme-button');
 
 for(var i=0; i < themeButtons.length; i++){
