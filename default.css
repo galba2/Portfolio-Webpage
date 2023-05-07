@@ -5,7 +5,7 @@
 
     --mainBackground:#89CFF0;
     --secondaryBackground:#f1f1f1;
-    --tertiaryBackground: #bbe5f8;
+    --tertiaryBackground: #bbe5f8e1;
 
     --textShadow:#4e7a8f;
 }
@@ -181,6 +181,60 @@ p, li, span, label, input,textarea{
     text-align: left;
 
     /*border: dashed;*/
+}
+
+.theme-wrapper{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 13px;
+    /*border: dashed;*/
+}
+
+#choose-website-theme{
+    font-size: 1.5em;
+    margin-top: 0px;
+    /*border: dashed;*/
+}
+
+.theme-buttons-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    width: fit-content;
+    margin: 0 auto;
+    /*border: dashed;*/
+}
+
+.theme-button{
+    height: 30px;
+    width: 17px;
+    border-radius: 39%;
+    border-color: var(--mainText);
+    border-style: groove;
+    background-color: purple;
+    cursor: pointer;
+}
+
+#default-theme{
+    background-color: #89CFF0;
+}
+
+#dark-theme{
+    background-color: black;
+}
+
+#pink-theme{
+    background-color: pink;
+}
+
+#neon-theme{
+    background-color: #BC13FE;
+}
+
+.theme-button:hover{
+    scale: 1.20;
 }
 
 .portfolio-project-wrapper{
