@@ -23,6 +23,6 @@ for(var i=0; i < themeButtons.length; i++){
 function setThemeStyle(style){
 
     document.getElementById('theme-setting').href = style + ".css";
-    
+    localStorage.setItem('savedStyle', style);
 }
 
