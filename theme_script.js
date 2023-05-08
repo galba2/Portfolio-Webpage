@@ -1,4 +1,4 @@
-console.log("It's still working!");
+console.log("Hello potential coworker!");
 
 let savedStyle = localStorage.getItem('savedStyle');
 

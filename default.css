@@ -254,20 +254,29 @@ p, li, span, label, input,textarea{
 }
 
 .project-design{
-    overflow: auto;
-    height: fit-content;
+    width: min-content;
+    
+    /*border: dashed;*/
+}
+
+.project-image-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
     /*border: dashed;*/
 }
 
 .project-design p{
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
     margin-bottom: 0;
 }
 
 .project-image{
     border-radius: 17px;
-
     /*border: dashed;*/
 }
 
