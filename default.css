@@ -261,6 +261,7 @@ p, li, span, label, input,textarea{
 
 .project-image-wrapper{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 200px;
