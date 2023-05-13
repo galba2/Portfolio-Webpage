@@ -20,7 +20,7 @@ body *{
     transition: 0.3s;
 }
 
-h1, h2, h3, h3, h4, h5, h6, strong{
+h1, h2, h3, h3, h4, h5, h6, strong, a{
     color: var(--mainText);
 }
 
@@ -255,7 +255,8 @@ p, li, span, label, input,textarea{
 
 .project-design{
     width: min-content;
-    
+    position: relative;
+    padding-bottom: 29px;
     /*border: dashed;*/
 }
 
@@ -278,6 +279,17 @@ p, li, span, label, input,textarea{
 
 .project-image{
     border-radius: 17px;
+    /*border: dashed;*/
+}
+
+.youtube-line-wrapper{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7px;
+    position: absolute;
+    bottom: 0;
+    left: 15%;
     /*border: dashed;*/
 }
 
