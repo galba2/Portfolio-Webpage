@@ -113,22 +113,19 @@
         <h2 class="section-heading">Contact</h2>
         <div>
             <form id="contact-form">
-                <label>Name</label>
+                <label for="name">Name</label>
                 <input class="input-field" type="text" name="name">
 
-                <label>Subject</label>
-                <input class="input-field" type="text" name="subject">
+                <label for="email">Email</label>
+                <input class="input-field" type="email" name="email">
 
-                <label>Email</label>
-                <input class="input-field" type="text" name="email">
-
-                <label>Message</label>
+                <label for="name">Message</label>
                 <textarea class="input-field" name="message"></textarea>
 
                 <input id="submit-button" type="submit" value="Send">
             </form>
         </div>
-        
+        <p id="result-text"></p>
     </section>
 
     <section class="s2">
@@ -150,5 +147,6 @@
     </section>
 
     <script type="text/javascript" src="theme_script.js"></script>
+    
 </body>
 </html>
