@@ -27,19 +27,20 @@ function setThemeStyle(style){
 }
 
 //Contact Form
+/*
 const form = document.querySelector("form");
+console.log(form);
 form.addEventListener("submit", (event) => {
     //prevent the form from refreshing the page
     event.preventDefault();
 
-    const { name, subject, email, message } = event.target;
+    const { name, email, message } = event.target;
     
     //API Gateway API endpoint URL
     const endpoint = "<https://atvc1mufqj.execute-api.us-east-2.amazonaws.com/default/sendContactEmail>";
 
     const body = JSON.stringify({
         senderName: name.value,
-        senderSubject: subject.value,
         senderEmail: email.value,
         message: message.value
     });
@@ -60,5 +61,6 @@ form.addEventListener("submit", (event) => {
             document.getElementById("result-text").innerText = "An unknown error occurred.";
         });
 
-});
+});*/
+
 
