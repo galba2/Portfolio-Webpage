@@ -27,7 +27,9 @@ function setThemeStyle(style){
 }
 
 //Contact Form
+/*
 const form = document.querySelector("form");
+console.log(form);
 form.addEventListener("submit", (event) => {
     //prevent the form from refreshing the page
     event.preventDefault();
@@ -59,6 +61,6 @@ form.addEventListener("submit", (event) => {
             document.getElementById("result-text").innerText = "An unknown error occurred.";
         });
 
-});
+});*/
 
 

@@ -105,7 +105,7 @@ p, li, span, label, input,textarea{
     display: flex;
     margin-top: 13px;
     justify-content: center;
-    gap: 17px;
+    gap: 43px;
 
     /*border: dashed;*/
 }
@@ -257,6 +257,7 @@ p, li, span, label, input,textarea{
     width: min-content;
     position: relative;
     padding-bottom: 29px;
+    box-shadow: 0 4px 5px 5px var(--tertiaryBackground);
     /*border: dashed;*/
 }
 
@@ -267,6 +268,7 @@ p, li, span, label, input,textarea{
     align-items: center;
     width: 200px;
     height: 200px;
+    margin: 7px;
     /*border: dashed;*/
 }
 
@@ -351,6 +353,28 @@ p, li, span, label, input,textarea{
     border-color: #fff;
     cursor: pointer;
 }
+/*~~~CONTACT BACKUP*/
+.contact-elements-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    gap: 100px;
+    padding-right: 2%;
+    margin-top: 40px;
+    margin-bottom: 70px;
+    justify-content: center;
+    align-items: center;
+    /*border: dashed;*/
+}
+
+.contact-element{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 7px;
+    /*border: dashed;*/
+}
+
 
 /*    ABOUT ME     */
 /*~~~    s2    ~~~*/
