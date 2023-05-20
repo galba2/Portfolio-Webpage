@@ -299,6 +299,7 @@ p, li, span, label, input,textarea{
 /*    CONTACT     */
 /*~~~    s2   ~~~*/
 /*    ~~~~~~~~~    */
+/*
 #contact-section{
     background-color: var(--mainBackground);
 
@@ -326,6 +327,7 @@ p, li, span, label, input,textarea{
     margin-top: 3px;
 
     /*border: dashed;*/
+/*
 }
 
 #contact-form textarea{
@@ -339,6 +341,7 @@ p, li, span, label, input,textarea{
     margin-right: 7px;
     /*margin-top: 1px;*/
     /*border: dashed;*/
+    /*
 }
 
 #submit-button{
@@ -352,7 +355,7 @@ p, li, span, label, input,textarea{
     background-color: var(--send-button-color);
     border-color: #fff;
     cursor: pointer;
-}
+}*/
 /*~~~CONTACT BACKUP*/
 .contact-elements-wrapper{
     display: flex;
